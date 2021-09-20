@@ -6,10 +6,10 @@ Feature: Googke Search
   Scenario Outline: Search J.P.Morgan
     Given Im on the Google Home Page
     And type <word> in the Google Search text box
-    When I hit enter
     Then I Should see Google Search Results
     And I click First Result
     Then I should See J.P.Morgan logo
+    And I Close the browser 
 
     Examples: 
       | word  |
