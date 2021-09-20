@@ -1,5 +1,6 @@
 JPMorgan Test
 
+Run As TestNG Test from DriverScriptTest.java src/test/java/Scripts
 Config.properties file for inputs
     -- choosing browser
     -- url
@@ -7,3 +8,6 @@ Config.properties file for inputs
 
 Project created with Maven , Cucumber TestNG and PageObject Model
 This can run as TestNG Test from runner file or mvn test
+
+
+Run As BDD Test from DriverScriptTest.java src/test/java/Runner 
