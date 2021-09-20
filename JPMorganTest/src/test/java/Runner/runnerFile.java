@@ -6,7 +6,9 @@ import io.cucumber.testng.CucumberOptions;
 
 public class runnerFile {
 	
-	@CucumberOptions(features = "src/test/resources/featureFiles", glue = "stepDefinitions")
+	@CucumberOptions(features = "src/test/resources/Features",
+					 glue = "Steps",
+					 tags="@JPMorgan")
 	public class RunTestNGTest extends AbstractTestNGCucumberTests {
 	 
 	}
